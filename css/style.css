@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+  padding: 0;
+  }
+  
+  /* seccion barra de navegacion  */
+  
+  .menu{
+      background-color: rgb(247, 219, 225);
+  }
+  
+  ul{
+      display:flex;
+      justify-content: space-around;
+      height: 30px;
+      margin-top: 0px;
+      padding-top: 15px ;
+  
+  }
+  /* secion home */
+  
+  .home{
+      display: flex;
+  
+     justify-content: space-around;
+  
+  }
+  
+  .container{
+      width: 50%;
+      display: flex;
+      align-items: center;
+  }
+  
+  .container p{
+      font-size: 30px;
+  }
+  
+  

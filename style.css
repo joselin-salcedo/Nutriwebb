@@ -290,7 +290,28 @@ nav .close-btn {
   font-size: 20px;
 }
   /* fin estilo contactanos */
+
   
+
+    /* Estilos de sobre nosotros*/
+
+ .about{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(35rem, 1fr));
+
+ }
+
+ .about-text{
+    display: flex;
+    align-items: center;
+
+ }
+
+ .about-text p{
+    font-size: 25px;
+ }
+
+
   /* Estilos del footer */
 footer {
     background-color:  #ffe9fc;

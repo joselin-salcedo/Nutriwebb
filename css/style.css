@@ -155,11 +155,11 @@ nav .close-btn {
   /* secion home */
  
   main{
-      margin-top: 5rem;
+      margin-top: 4.5rem;
   }
 
   .home-background{
-    background-image: url(/img/home.423);
+    /* background-image: url(/img/home.423);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -168,8 +168,28 @@ nav .close-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    position:relative;
+    height: 100vh;
   }
+
+  .home-frase-container{
+    position: absolute;
+    top: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+  }
+  .home-background img{
+    width: 100%;
+    height: 100vh;
+ 
+  }
+
 
   .frase-home{
      font-size: 2.5rem;
